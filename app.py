@@ -1,3 +1,5 @@
+import os
+
 from fastapi import FastAPI, Depends, Request, status, HTTPException
 
 from starlette.templating import Jinja2Templates
