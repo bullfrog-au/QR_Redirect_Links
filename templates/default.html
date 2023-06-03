@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>QR Example</title>
+  </head>
+  <body>
+    <h1>QR Test</h1>
+    <h2> Name: {{ qr.name }} </h2>
+    <h2> ID: {{ qr.id }} </h2>
+    <h2> Status: {{ qr.status }} </h2>
+    <!-- Add button opens new page with href as jinja2 tag-->
+    <a href="{{ qr.link }}" target="_blank" class="ui blue button">Link to another place</a>
+    <p></p>
+
+  </body>
+</html>
